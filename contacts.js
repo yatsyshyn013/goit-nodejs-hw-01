@@ -2,7 +2,7 @@ const fs = require("fs/promises")
 const path = require('path');
 const { nanoid } = require("nanoid");
 
-const contactsPath = path.join(__dirname, "./db/contact.json");
+const contactsPath = path.join(__dirname, "db", "contact.json");
  
 
 
